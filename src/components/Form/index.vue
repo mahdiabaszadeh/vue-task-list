@@ -52,11 +52,11 @@
 </template>
 
 <script>
-const autoFocus = (vueObject) => {
-  vueObject.$refs.titleInput.focus();
+const autoFocus = () => {
+  this.$refs.titleInput.focus();
 };
-const emptyInput = (vueObject)=>{
-  vueObject.taskTitl = "";
+const emptyInput = ()=>{
+  this.taskTitl = "";
 }
 
 export default {
